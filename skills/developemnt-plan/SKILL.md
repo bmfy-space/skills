@@ -54,19 +54,19 @@ description: "实现产品、功能、修复或重构前必须使用：先反问
 默认将文件写入当前项目根目录下：
 
 ```text
-.developemnt-plan/YYYY-MM-DD-<topic>/design.md
-.developemnt-plan/YYYY-MM-DD-<topic>/plan.md
-.developemnt-plan/YYYY-MM-DD-<topic>/todo.md
+.developemnt-plan/YYYYMMDDHHmmss-<topic>/design.md
+.developemnt-plan/YYYYMMDDHHmmss-<topic>/plan.md
+.developemnt-plan/YYYYMMDDHHmmss-<topic>/todo.md
 ```
 
-同一主题的 `design.md`、`plan.md` 和 `todo.md` 必须显示在同一个 `YYYY-MM-DD-<topic>` 文件夹中，便于查看和更新。
+同一主题的 `design.md`、`plan.md` 和 `todo.md` 必须显示在同一个 `YYYYMMDDHHmmss-<topic>` 文件夹中，便于查看和更新。
 
-其中 `<topic>` 使用短横线命名，日期使用创建或更新该计划当天的 `YYYY-MM-DD`：
+其中 `<topic>` 使用短横线命名，日期使用创建或更新该计划时的 `YYYYMMDDHHmmss`：
 
 ```text
-.developemnt-plan/2026-05-14-image2-workbench/design.md
-.developemnt-plan/2026-05-14-image2-workbench/plan.md
-.developemnt-plan/2026-05-14-image2-workbench/todo.md
+.developemnt-plan/20260514153045-image2-workbench/design.md
+.developemnt-plan/20260514153045-image2-workbench/plan.md
+.developemnt-plan/20260514153045-image2-workbench/todo.md
 ```
 
 如果项目已有约定目录或用户指定了其他位置，优先遵循用户要求；否则使用上面的 `.developemnt-plan/` 路径。注意目录名按用户指定拼写为 `developemnt-plan`。
@@ -185,8 +185,8 @@ description: "实现产品、功能、修复或重构前必须使用：先反问
 在用户确认需求边界后：
 
 1. 检查 `.developemnt-plan/` 下是否已有相同或相似主题文件夹，以及其中的 `design.md`、`plan.md`、`todo.md`
-2. 如果已有相似计划，更新既有 `YYYY-MM-DD-<topic>` 文件夹中的 `design.md`、`plan.md` 和 `todo.md`；不要创建重复主题文件夹
-3. 如果没有相似计划，创建 `.developemnt-plan/YYYY-MM-DD-<topic>/`
+2. 如果已有相似计划，更新既有 `YYYYMMDDHHmmss-<topic>` 文件夹中的 `design.md`、`plan.md` 和 `todo.md`；不要创建重复主题文件夹
+3. 如果没有相似计划，创建 `.developemnt-plan/YYYYMMDDHHmmss-<topic>/`
 4. 在该文件夹中创建 `design.md`
 5. 在该文件夹中创建 `plan.md`
 6. 在该文件夹中创建 `todo.md`
